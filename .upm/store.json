@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"6091e10840b100109714e6625dcecd38","lockfileHash":"281e37c2eb8d15f96c7ca677403742a0","guessedImports":["discord.js","redis","lcdb","cli-color","quick.db","@polestar/emoji-grimoire"],"guessedImportsHash":"03df3cecf5a659bfbb4dbe415a3e4c50"},"python3-poetry":{}}}

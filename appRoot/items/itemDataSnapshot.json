@@ -1,0 +1,41 @@
+{
+  "isshinfuran": {
+    "id": "isshinfuran",
+    "name": "一心不乱",
+    "rarity": "R",
+    "type": "background",
+    "typeAlias": "BKG",
+    "code": "isshinfuran",
+    "event": "none",
+    "icon": "none",
+    "bundle": "none",
+    "droppable": true,
+    "public": true
+  },
+  "W70N8HdbnKbx3GUPMVWg3xABYlUnQxIJ": {
+    "id": "W70N8HdbnKbx3GUPMVWg3xABYlUnQxIJ",
+    "name": "Orochimaru",
+    "rarity": "C",
+    "type": "background",
+    "typeAlias": "BKG",
+    "code": "W70N8HdbnKbx3GUPMVWg3xABYlUnQxIJ",
+    "event": "none",
+    "icon": "none",
+    "bundle": "none",
+    "droppable": true,
+    "public": true
+  },
+  "ef31507da3248a77635e092dd7ed4ebd": {
+    "id": "ef31507da3248a77635e092dd7ed4ebd",
+    "name": "Shigatsu wa Kimi no Uso - Kaori",
+    "rarity": "C",
+    "type": "background",
+    "typeAlias": "BKG",
+    "code": "ef31507da3248a77635e092dd7ed4ebd",
+    "event": "none",
+    "icon": "none",
+    "bundle": "none",
+    "droppable": true,
+    "public": true
+  }
+}

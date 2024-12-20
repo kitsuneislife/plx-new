@@ -1,0 +1,41 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/app": "^0.10.5",
+    "@firebase/database": "^1.0.5",
+    "@polestar/emoji-grimoire": "github:PolestarLabs/emoji-grimoire",
+    "@polestar/i18n": "github:PolestarLabs/pollux-i18n",
+    "@polestar/morse": "github:PolestarLabs/morse",
+    "@polestar/progression": "github:PolestarLabs/plx-progression",
+    "@polestar/skia-twemoji": "github:PolestarLabs/skia-canvas-twemoji",
+    "@types/node": "^18.0.6",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.7.2",
+    "canvas": "^2.11.2",
+    "canvas-text-wrapper": "^0.10.2",
+    "canvas-with-twemoji": "^1.0.0",
+    "cli-color": "^2.0.4",
+    "crypto": "^1.0.1",
+    "date-fns": "^3.6.0",
+    "discord.js": "^14.15.3",
+    "firebase": "^10.12.3",
+    "fuse.js": "^7.0.0",
+    "i18next": "^23.11.5",
+    "lcdb": "^5.2.0",
+    "quick.db": "^9.1.7",
+    "redis": "^4.6.14",
+    "skia-canvas": "^1.0.1",
+    "stackblur-canvas": "^2.7.0",
+    "uuid": "^10.0.0",
+    "write-file-atomic": "^5.0.1"
+  }
+}

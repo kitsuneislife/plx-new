@@ -1,0 +1,17 @@
+{
+  "crossAuth" : "",
+  "owner"     : [496270782679220234],
+  "admins"    : [],
+  "mods"      : [],
+  "token"     : "",
+  "dbURL"     : "mongodb://","discoin-"  : "",
+  "riot"      : "",
+  "twitch"    : "",
+  "google"    : "",
+  "sentryDSN" : "",
+  "testChannels" : [],
+  "mainWebhook": {
+      "id": "",
+      "token": ""
+  }
+}

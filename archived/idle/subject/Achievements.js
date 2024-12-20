@@ -1,0 +1,148 @@
+const achievements = [
+  {
+    name: "Produtor Iniciante",
+    description: "Acumule 1.000 jades.",
+    condition: (user) => user.resources.jade >= 1000,
+    reward: { tokens: 100 },
+  },
+  {
+    name: "Produtor de Jades",
+    description: "Acumule 10.000 jades.",
+    condition: (user) => user.resources.jade >= 10000,
+    reward: { tokens: 200 },
+  },
+  {
+    name: "Grande Produtor de Jades",
+    description: "Acumule 100.000 jades.",
+    condition: (user) => user.resources.jade >= 100000,
+    reward: { tokens: 500 },
+  },
+  {
+    name: "Magnata dos Jades",
+    description: "Acumule 1.000.000 jades.",
+    condition: (user) => user.resources.jade >= 1000000,
+    reward: { tokens: 1000 },
+  },
+  {
+    name: "Mestre dos Jades",
+    description: "Acumule 100.000.000 jades.",
+    condition: (user) => user.resources.jade >= 100000000,
+    reward: { tokens: 5000 },
+  },
+  {
+    name: "Bilionário dos Jades",
+    description: "Acumule 1.000.000.000 jades.",
+    condition: (user) => user.resources.jade >= 1000000000,
+    reward: { tokens: 10000 },
+  },
+  {
+    name: "Trilionário dos Jades",
+    description: "Acumule 100.000.000.000 jades.",
+    condition: (user) => user.resources.jade >= 100000000000,
+    reward: { tokens: 50000 },
+  },
+  {
+    name: "Quadrilionário dos Jades",
+    description: "Acumule 1.000.000.000.000 jades.",
+    condition: (user) => user.resources.jade >= 1000000000000,
+    reward: { tokens: 100000 },
+  },
+  {
+    name: "Acumulador Iniciante",
+    description: "Acumule 1.000 rubines.",
+    condition: (user) => user.resources.rubine >= 1000,
+    reward: { tokens: 100 },
+  },
+  {
+    name: "Acumulador de Rubines",
+    description: "Acumule 10.000 rubines.",
+    condition: (user) => user.resources.rubine >= 10000,
+    reward: { tokens: 200 },
+  },
+  {
+    name: "Grande Acumulador de Rubines",
+    description: "Acumule 100.000 rubines.",
+    condition: (user) => user.resources.rubine >= 100000,
+    reward: { tokens: 500 },
+  },
+  {
+    name: "Magnata dos Rubines",
+    description: "Acumule 1.000.000 rubines.",
+    condition: (user) => user.resources.rubine >= 1000000,
+    reward: { tokens: 1000 },
+  },
+  {
+    name: "Mestre dos Rubines",
+    description: "Acumule 100.000.000 rubines.",
+    condition: (user) => user.resources.rubine >= 100000000,
+    reward: { tokens: 5000 },
+  },
+  {
+    name: "Bilionário dos Rubines",
+    description: "Acumule 1.000.000.000 rubines.",
+    condition: (user) => user.resources.rubine >= 1000000000,
+    reward: { tokens: 10000 },
+  },
+  {
+    name: "Trilionário dos Rubines",
+    description: "Acumule 100.000.000.000 rubines.",
+    condition: (user) => user.resources.rubine >= 100000000000,
+    reward: { tokens: 50000 },
+  },
+  {
+    name: "Quadrilionário dos Rubines",
+    description: "Acumule 1.000.000.000.000 rubines.",
+    condition: (user) => user.resources.rubine >= 1000000000000,
+    reward: { tokens: 100000 },
+  },
+  {
+    name: "Acumulador Iniciante",
+    description: "Acumule 1.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 1000,
+    reward: { tokens: 100 },
+  },
+  {
+    name: "Acumulador de Sapphires",
+    description: "Acumule 10.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 10000,
+    reward: { tokens: 200 },
+  },
+  {
+    name: "Grande Acumulador de Sapphires",
+    description: "Acumule 100.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 100000,
+    reward: { tokens: 500 },
+  },
+  {
+    name: "Magnata dos Sapphires",
+    description: "Acumule 1.000.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 1000000,
+    reward: { tokens: 1000 },
+  },
+  {
+    name: "Mestre dos Sapphires",
+    description: "Acumule 100.000.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 100000000,
+    reward: { tokens: 5000 },
+  },
+  {
+    name: "Bilionário dos Sapphires",
+    description: "Acumule 1.000.000.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 1000000000,
+    reward: { tokens: 10000 },
+  },
+  {
+    name: "Trilionário dos Sapphires",
+    description: "Acumule 100.000.000.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 100000000000,
+    reward: { tokens: 50000 },
+  },
+  {
+    name: "Quadrilionário dos Sapphires",
+    description: "Acumule 1.000.000.000.000 sapphires.",
+    condition: (user) => user.resources.sapphire >= 1000000000000,
+    reward: { tokens: 100000 },
+  },  
+];
+
+module.exports = achievements;

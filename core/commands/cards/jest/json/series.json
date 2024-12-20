@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "JoJo's Bizarre Adventure: Stone Ocean",
+    "aliases": [],
+    "logo": "https://mudae.net/logos/8957167/9wVlpz3~q9SYv0U.png",
+    "characters": [{ "id": "e659", "name": "Jolyne Cujoh" }]
+  },
+  {
+    "id": 2,
+    "name": "Helluva Boss",
+    "aliases": [],
+    "logo": "https://mudae.net/logos/7160518/S8X_XMS~f6GB2jD.png",
+    "characters": [
+      { "id": "1c74", "name": "Stolas" },
+      { "id": "4b14", "name": "Fizzarolli" },
+      { "id": "35ef", "name": "Verosika Mayday" }
+    ]
+  }
+]
